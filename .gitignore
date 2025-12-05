@@ -1,0 +1,47 @@
+# ================================
+# VHDL / FPGA / EDA .gitignore
+# ================================
+
+# Simulation & Compilation Outputs
+*.o
+*.out
+*.vcd
+*.wlf
+*.ghw
+*.cf
+*.log
+*.jou
+
+# VHDL Library / Work Directories
+work/
+work-obj93.cf
+modelsim.ini
+transcript
+vsim.wlf
+
+# Vivado / Quartus / FPGA Tool Junk
+.cache/
+*.runs/
+*.sim/
+*.xdc
+*.str
+*.xpr
+*.hw/
+*.ip_user_files/
+*.gen/
+*.ltx
+*.bit
+*.mcs
+*.rpt
+
+# Temporary / Backup Files
+*~
+*.bak
+*.tmp
+*.swp
+*.DS_Store
+
+# Python or TCL scripts generated automatically
+__pycache__/
+*.pyc
+
